@@ -5,12 +5,12 @@ import com.ap.sorting.BubbleSort;
 public class Test {
 
 	public static void main(String args[]){
-		System.out.println("Ankush Puri");
 		
 		BubbleSort bubbleSort = new BubbleSort();
 		
 		Integer[] array = new Integer[]{5,6,1,4,9,3,22,8};
 		
+		System.out.println("Array Before Sorting");
 		for(int i : array){
 			System.out.print(i+" ");
 		}
@@ -21,7 +21,5 @@ public class Test {
 		for(int i : array){
 			System.out.print(i+" ");
 		}
-		
 	}
-	
 }
